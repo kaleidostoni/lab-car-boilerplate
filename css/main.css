@@ -1,1 +1,368 @@
-/* Los estilos de tu proyecto */
+
+.navbar-default{
+border-color: white;
+background-color: white;
+margin:4vh 0;
+}
+
+.menu-option {
+  font-size: 1.1em;
+  margin-left: 2vw;
+}
+
+/*register section*/
+
+.taxi-background {
+  background-image: url("../assets/images/taxi.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  height: 92vh;
+}
+
+.registration-card, .card-mobile {
+	height: 59vh;
+	background-color: #F7B617;
+  padding: 3vw 0 0 3vw;
+  color: white;
+  margin-top: 18vh;
+}
+
+.card-mobile {
+  height: 33vh;
+  padding: 7vw 0 0 7vw;
+}
+
+.reg-paragraph, .mobile-paragraph {
+  display:inline-block;
+  margin-bottom:-3em;
+  font-size: 2.3em;
+}
+
+.paragraph-container{
+  width: 80%;
+}
+
+.mobile-p-container {
+  width: 85%;
+}
+
+.paragraph {
+  font-size: 1.5em;
+  margin-top: 7vh;
+  display: inline-block;
+}
+
+.logo-blanco {
+  width: 7vw;
+  margin-left: 1vw;
+}
+
+.logo-blanco2 {
+  width: 15vw;
+  margin-left: 1vw;
+}
+
+.resgistration-btn {
+  display:block;
+  font-size: 1.1em;
+  font-weight: 500;
+  border:none;
+  margin-top: 1vh;
+}
+
+.p-line {
+  width: 8vw;
+  display:inline-block;
+  margin: 5vh 0 0 1vh;
+}
+
+.second-line {
+  margin: 0 3.5vw;
+}
+
+.driver-btn, .download-btn{
+  display:block;
+  border:none;
+  font-size: 1.2em;
+  font-weight: 500;
+   margin-top: 5vh;
+}
+
+/*dowload section*/
+
+.download-section {
+  background-color: #F7B617;
+  height: 72vh;
+}
+
+.download-mobile-section {
+   background-color: #F7B617;
+  height: 78vh;
+}
+
+.download-border {
+  border: 1px solid white;
+  height: 60.5vh;
+  margin-top: 5.5vh;
+}
+
+.border-mobile{
+  border: 1px solid white;
+  height: 64vh;
+  width: 90%;
+  margin-top: 5vh;
+  margin-left: 5vw;
+}
+
+.download-card {
+  color:white;
+}
+
+.download-header {
+  margin-top: 8vh;
+  font-weight: 400;
+}
+
+.mobile-download-header {
+  color:white;
+  font-weight: 400;
+  text-align: center;
+  font-size: 1.5em;
+  margin-top: 8vh;
+}
+
+.download-paragraph {
+  font-size: 1.4em;
+  font-weight: 300;
+  width: 80%;
+  margin-top: 4vh;
+}
+
+.mobile-download-paragraph {
+  color:white;
+  text-align: left;
+  font-size: 1.1em;
+  margin-left: 5vw;
+  margin-top: 4.5vh;
+}
+
+
+.mobile-phone {
+  height: 49vh;
+  margin-top: 6vh;
+  margin-left: 6vw;
+}
+
+.mobile-phone-m {
+  height: 45vh;
+  margin-top: 1.5vh;
+  margin-left: 17vw;
+}
+
+/*driver section*/
+
+.driver-backgroud {
+  background-image: url("../assets/images/conduce.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 55vh;
+}
+
+.drive-card {
+  height: 55vh;
+  background: 	rgba(0,0,0, 0.5);
+  color:white;
+  padding: 10vh 0 0 5vh;
+}
+
+.driver-header {
+  font-weight: 400;
+  font-size: 1.9em;
+}
+
+.driver-mobile-header {
+  font-weight: 400;
+  font-size: 1.3em;
+  margin-left: 4vw;
+}
+
+.driver-paragraph {
+  color:white;
+  font-size: 1.2em;
+  font-weight: 300;
+  width:80%;
+}
+
+.driver-mobile-paragraph{
+  font-size: 1.2em;
+  font-weight: 300;
+  width:80%;
+  margin-left: 4vw;
+}
+
+.driver-btn-yellow, .driver-btn-yellow-mobile {
+  display:block;
+  border:none;
+  font-size: 1.2em;
+  font-weight: 500;
+  background-color:#F7B617;
+  color:white;
+}
+
+.driver-btn-yellow-mobile {
+  margin-left: 4vw;
+}
+
+/*rates section*/
+
+.rates {
+  background-color: #F7B617;
+  height: 80vh;
+  padding-left: 7vw;
+}
+
+.mobile-rates {
+  height: 94vh;
+  background-color: #F7B617;
+  padding-left: 3vw;
+}
+
+.rates-header {
+  font-weight: 400;
+  font-size: 1.9em;
+  color:white;
+  margin-top: 13vh;
+  margin-left: 1vw;
+}
+
+.rates-header-mobile {
+  font-weight: 400;
+  color:white;
+  margin-top: 13vh;
+}
+
+.rates-paragraph {
+  color:white;
+  font-size: 1.2em;
+  font-weight: 300;
+  margin-left: 1vw;
+  margin-bottom: 5vh;
+  margin-top: 3vh;
+}
+
+.rates-paragraph-mobile {
+  color:white;
+  font-size: 1.1em;
+  font-weight: 200;
+  margin-bottom: 4vh;
+}
+
+.map-border {
+  padding: 1vh;
+  border:1px solid white;
+  height: 62.3vh;
+  width: 35.5vw;
+  margin-top: 6vh;
+}
+
+.mobile-map-border {
+  padding: 1vh;
+  border:1px solid white;
+  height: 48.5vw;
+  width: 82.5vw;
+  margin-top: 6vh;
+  margin-left: 7vw;
+}
+
+.second-group, .first-group{
+  width: 60%;
+}
+
+.second-group-mobile, .first-group-mobile{
+  width: 85%;
+}
+
+.second-group, .second-group-mobile {
+  margin-top: 4vh;
+}
+
+#basic-addon1 , #basic-addon2{
+  background-color: #F7B617;
+  border:none;
+  border-radius: 10px;
+}
+
+
+.first-input, .second-input {
+  background-color: #F7B617;
+  border: 1px solid white;
+  border-radius: 10px;
+  display: block;
+}
+
+.route-btn {
+  border:none;
+  margin-left: 14vh;
+  margin-top: 4vh;
+  font-size: 0.9em;
+  padding: 0.8em 2em;
+}
+
+.route-btn-mobile{
+  margin-left: 30vw;
+}
+
+/*footer*/
+
+.footer {
+  background-color: #2B2B2B;
+  height: 85vh;
+  padding: 10vh 10vw;
+}
+
+.mobile-footer{
+  background-color: #2B2B2B;
+  height: 80vh;
+  padding: 2vh 6vw;
+}
+
+.footer-logo {
+  width: 8.5vw;
+}
+
+.footer-logo-mobile {
+  width: 22vw;
+}
+
+.w-item{
+  color: white;
+}
+
+.online-store1, .online-store2 {
+  width: 11vw;
+  margin-top: 2.5vh;
+}
+
+.online-store1-m, .online-store2-m {
+  width: 33vw;
+  margin-top: 5vh;
+}
+
+.online-store1 {
+  margin-top: 30vh;
+}
+
+.copy-r {
+  color: white;
+}
+
+.icons {
+  color:white;
+  margin-top: 43vh;
+}
+
+.icons2 {
+  color:white;
+}
